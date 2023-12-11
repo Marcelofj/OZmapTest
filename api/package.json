@@ -1,6 +1,6 @@
 {
   "name": "oztest",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "DevOZ - Tech test",
   "license": "ISC",
   "private": true,
@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "start": "node dist/server.js",
-    "build": "tsc",
     "lint": "eslint src/**/*.ts .",
     "lint:fix": "eslint --fix src/**/*.ts .",
     "test": "jest"
